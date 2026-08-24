@@ -2,7 +2,7 @@
 
 Welcome to my **LeetCode & Data Structures and Algorithms (DSA) journey**!
 
-This repository contains my solutions as I learn DSA using **Python 3**, following a structured problem-solving roadmap for technical interviews and placement preparation.
+This repository contains my solutions as I learn **DSA using Python 3** and **SQL**, following structured learning roadmaps for technical interviews and placement preparation.
 
 I focus on understanding the **concept and problem-solving pattern first**, then solving the LeetCode problem independently.
 
@@ -14,11 +14,11 @@ I focus on understanding the **concept and problem-solving pattern first**, then
 Computer Science Engineering Student  
 SASTRA Deemed to be University
 
-Currently learning DSA from the fundamentals and solving problems topic by topic instead of randomly solving questions.
+Currently learning DSA and SQL from the fundamentals and solving problems topic by topic instead of randomly solving questions.
 
 ---
 
-## 🧠 Learning Roadmap
+# 🧠 DSA Learning Roadmap
 
 ### 1. Arrays & Hashing
 - Array Traversal
@@ -42,7 +42,7 @@ More topics will be added as I progress.
 
 ---
 
-## 📊 Progress
+# 📊 DSA Progress
 
 ### Arrays & Hashing — 10 / 14 ✅
 
@@ -67,39 +67,124 @@ More topics will be added as I progress.
 
 ---
 
-## 🐍 Language
+# 🗄️ SQL Learning Journey
 
-- Python 3
+I am also learning **SQL from absolute zero** and following the **LeetCode SQL 50** study plan.
 
----
+The goal is to build strong SQL fundamentals for **placements, technical interviews, DBMS, and real-world problem solving**.
 
-## 🎯 Goals
+I follow the same learning approach as DSA:
 
-- Build strong DSA fundamentals
-- Understand common problem-solving patterns
-- Improve Python programming skills
-- Prepare for coding interviews and placements
-- Develop consistent problem-solving habits
-- Learn to solve problems independently
+> **Learn the concept → Understand the pattern → Solve independently → Document the solution → Move to the next problem**
 
 ---
 
-## 📁 Repository Structure
+## 📚 SQL Roadmap
+
+### 1. SQL Basics
+- SELECT
+- FROM
+- WHERE
+- DISTINCT
+- ORDER BY
+- LIMIT
+- Comparison Operators
+- AND / OR / NOT
+- IN
+- BETWEEN
+- LIKE
+- NULL
+- IS NULL / IS NOT NULL
+
+### 2. Functions & Aggregation
+- COUNT()
+- SUM()
+- AVG()
+- MIN()
+- MAX()
+- GROUP BY
+- HAVING
+
+### 3. Joins
+- INNER JOIN
+- LEFT JOIN
+- RIGHT JOIN
+- SELF JOIN
+- Multiple-table Queries
+
+### 4. Intermediate SQL
+- CASE
+- Subqueries
+- IN with Subqueries
+- EXISTS / NOT EXISTS
+- UNION / UNION ALL
+- NULL Handling
+
+### 5. Advanced SQL
+- CTEs
+- Window Functions
+- ROW_NUMBER()
+- RANK()
+- DENSE_RANK()
+- PARTITION BY
+- Interview-oriented SQL Patterns
+
+### 6. LeetCode SQL 50
+Working through the **LeetCode SQL 50** study plan and solving problems independently.
+
+---
+
+# 🏆 SQL Progress
+
+### LeetCode SQL — 3 Problems Solved
+
+| # | Problem | LeetCode | Concepts | Status |
+|---|---|---:|---|:---:|
+| 1 | Recyclable and Low Fat Products | #1757 | SELECT, WHERE, AND | ✅ |
+| 2 | Find Customer Referee | #584 | WHERE, OR, NULL, IS NULL | ✅ |
+| 3 | Big Countries | #595 | WHERE, OR, >= | ✅ |
+
+**SQL Problems Solved: 3**
+
+**SQL 50 Progress: 3 / 50**
+
+---
+
+## 🧠 SQL Concepts Completed
+
+- SELECT ✅
+- FROM ✅
+- WHERE ✅
+- Comparison Operators ✅
+- AND ✅
+- OR ✅
+- NOT ✅
+- NULL ✅
+- IS NULL / IS NOT NULL ✅
+- DISTINCT 🟡
+- ORDER BY 🟡
+- LIMIT 🟡
+- IN 🟡
+
+More concepts will be added as I progress.
+
+---
+
+## 📁 SQL Repository Structure
 
 ```text
-leetcode-solutions/
+SQL/
 │
-├── Arrays-and-Hashing/
-│   │
-│   ├── 001-Two-Sum/
-│   ├── 049-Group-Anagrams/
-│   ├── 136-Single-Number/
-│   ├── 169-Majority-Element/
-│   ├── 217-Contains-Duplicate/
-│   ├── 238-Product-of-Array-Except-Self/
-│   ├── 242-Valid-Anagram/
-│   ├── 268-Missing-Number/
-│   ├── 347-Top-K-Frequent-Elements/
-│   └── 350-Intersection-of-Two-Arrays-II/
+├── README.md
 │
-└── README.md
+├── 1757-Recyclable-and-Low-Fat-Products/
+│   ├── solution.sql
+│   └── README.md
+│
+├── 584-Find-Customer-Referee/
+│   ├── solution.sql
+│   └── README.md
+│
+└── 595-Big-Countries/
+    ├── solution.sql
+    └── README.md
