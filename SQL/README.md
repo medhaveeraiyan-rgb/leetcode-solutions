@@ -1,36 +1,57 @@
-# SQL — LeetCode Journey
+# 🗄️ SQL — LeetCode Journey
 
-My SQL learning journey from absolute beginner to interview level.
+My journey of learning **SQL from absolute zero to interview level** through structured practice and problem solving.
 
-I am following the **LeetCode SQL 50** study plan while building strong SQL and DBMS fundamentals for placements and technical interviews.
+I am following the **LeetCode SQL 50** study plan while building strong foundations in **SQL, DBMS, and database problem solving** for technical interviews and placements.
+
+> **Learn → Understand → Solve Independently → Document → Repeat**
+
+---
+
+## 👩‍💻 About This Journey
+
+I started this journey with almost no prior SQL knowledge.
+
+Instead of memorizing queries, I am learning SQL concept by concept and applying each concept to real LeetCode problems.
+
+My goal is to develop the ability to **read a problem, identify the required SQL concepts, and write the query independently.**
+
+---
 
 ## 🎯 Goals
 
-- Learn SQL from beginner to interview level
+- Learn SQL from beginner to advanced level
 - Build strong SQL and DBMS fundamentals
-- Solve LeetCode SQL problems independently
-- Complete the LeetCode SQL 50 study plan
-- Earn the SQL 50 badge
-- Maintain consistency and build SQL problem-solving skills
-- Document every solved problem
+- Complete the **LeetCode SQL 50** study plan
+- Solve SQL problems independently
+- Develop strong query-building and problem-solving skills
+- Prepare for SQL and DBMS technical interviews
+- Build consistency through daily problem solving
+- Earn the **LeetCode SQL 50 Badge**
+- Maintain a documented record of my SQL learning journey
 
-## 📚 Learning Roadmap
+---
 
-### SQL Basics
+# 📚 Learning Roadmap
+
+## 01 — SQL Fundamentals
+
 - SELECT
 - FROM
 - WHERE
 - DISTINCT
 - ORDER BY
 - LIMIT
-- Comparison operators
+- Comparison Operators
 - AND / OR / NOT
-- IN
+- IN / NOT IN
 - BETWEEN
 - LIKE
 - NULL
+- IS NULL / IS NOT NULL
 
-### Functions & Aggregation
+## 02 — Functions & Aggregation
+
 - COUNT()
 - SUM()
 - AVG()
@@ -39,52 +60,139 @@ I am following the **LeetCode SQL 50** study plan while building strong SQL and 
 - GROUP BY
 - HAVING
 
-### Joins
+## 03 — Joins
+
 - INNER JOIN
 - LEFT JOIN
 - RIGHT JOIN
 - SELF JOIN
-- Multiple-table queries
+- Multiple-table Queries
 
-### Intermediate SQL
+## 04 — Intermediate SQL
+
 - CASE
 - Subqueries
-- EXISTS / NOT EXISTS
-- UNION / UNION ALL
-- NULL handling
+- IN with Subqueries
+- EXISTS
+- NOT EXISTS
+- UNION
+- UNION ALL
+- NULL Handling
 
-### Advanced SQL
+## 05 — Advanced SQL
+
 - CTEs
 - Window Functions
 - ROW_NUMBER()
 - RANK()
 - DENSE_RANK()
 - PARTITION BY
+- Interview-oriented SQL Patterns
 
-## 🏆 LeetCode Progress
+## 06 — LeetCode SQL 50
 
-**SQL 50:** 1 / 50
+The **LeetCode SQL 50** study plan is my main problem-solving roadmap.
 
-**Problems Solved:** 1
+I solve problems independently after learning the concepts required for them.
+
+---
+
+# 🏆 LeetCode Progress
+
+### SQL 50
+
+**6 / 50 Problems Solved**  
+`████░░░░░░░░░░░░░░░░` **12%**
 
 ### Solved Problems
 
-| # | Problem | Concepts |
-|---|---|---|
-| 1757 | Recyclable and Low Fat Products | SELECT, WHERE, AND |
+| # | Problem | Difficulty | Key Concepts | Status |
+|---:|---|:---:|---|:---:|
+| 1757 | Recyclable and Low Fat Products | Easy | SELECT, WHERE, AND | ✅ |
+| 584 | Find Customer Referee | Easy | OR, NULL, IS NULL | ✅ |
+| 595 | Big Countries | Easy | WHERE, OR, Comparison Operators | ✅ |
+| 1148 | Article Views I | Easy | DISTINCT, AS, ORDER BY | ✅ |
+| 1683 | Invalid Tweets | Easy | CHAR_LENGTH(), WHERE | ✅ |
+| 620 | Not Boring Movies | Easy | AND, %, ORDER BY, DESC | ✅ |
 
-## 📈 Progress
+---
 
-- SQL Journey: 🟢 Started
-- SQL 50: **1 / 50**
-- SQL Day: **Day 1 🔥**
-- SQL 50 Badge: ⏳ In Progress
+# 🧠 Concepts Currently Covered
 
-## 📂 Structure
+### Fundamentals
+
+- [x] SELECT
+- [x] FROM
+- [x] WHERE
+- [x] Comparison Operators
+- [x] AND
+- [x] OR
+- [x] NOT
+- [x] NULL
+- [x] IS NULL
+- [x] IS NOT NULL
+- [x] DISTINCT
+- [x] ORDER BY
+- [x] LIMIT
+- [x] IN
+- [ ] BETWEEN
+- [ ] LIKE
+
+### Functions & Aggregation
+
+- [ ] COUNT()
+- [ ] SUM()
+- [ ] AVG()
+- [ ] MIN()
+- [ ] MAX()
+- [ ] GROUP BY
+- [ ] HAVING
+
+### Joins
+
+- [ ] INNER JOIN
+- [ ] LEFT JOIN
+- [ ] RIGHT JOIN
+- [ ] SELF JOIN
+
+### Advanced
+
+- [ ] CASE
+- [ ] Subqueries
+- [ ] EXISTS / NOT EXISTS
+- [ ] UNION / UNION ALL
+- [ ] CTEs
+- [ ] Window Functions
+
+---
+
+# 📂 Repository Structure
 
 ```text
 SQL/
+│
 ├── README.md
-└── 1757-Recyclable-and-Low-Fat-Products/
+│
+├── 1757-Recyclable-and-Low-Fat-Products/
+│   ├── solution.sql
+│   └── README.md
+│
+├── 584-Find-Customer-Referee/
+│   ├── solution.sql
+│   └── README.md
+│
+├── 595-Big-Countries/
+│   ├── solution.sql
+│   └── README.md
+│
+├── 1148-Article-Views-I/
+│   ├── solution.sql
+│   └── README.md
+│
+├── 1683-Invalid-Tweets/
+│   ├── solution.sql
+│   └── README.md
+│
+└── 620-Not-Boring-Movies/
     ├── solution.sql
     └── README.md
