@@ -14,13 +14,15 @@ I started this journey with almost no prior SQL knowledge.
 
 Instead of memorizing queries, I am learning SQL concept by concept and applying each concept to real LeetCode problems.
 
-My goal is to develop the ability to **read a problem, identify the required SQL concepts, and write the query independently.**
+My goal is to develop the ability to:
+
+**Understand the problem → Identify the SQL pattern → Write the query independently**
 
 ---
 
 ## 🎯 Goals
 
-- Learn SQL from beginner to advanced level
+- Learn SQL from absolute beginner to interview level
 - Build strong SQL and DBMS fundamentals
 - Complete the **LeetCode SQL 50** study plan
 - Solve SQL problems independently
@@ -101,25 +103,27 @@ I solve problems independently after learning the concepts required for them.
 
 ### SQL 50
 
-**6 / 50 Problems Solved**  
-`████░░░░░░░░░░░░░░░░` **12%**
+**7 / 50 Problems Solved**
+
+`███░░░░░░░░░░░░░░░░░` **14%**
 
 ### Solved Problems
 
 | # | Problem | Difficulty | Key Concepts | Status |
 |---:|---|:---:|---|:---:|
 | 1757 | Recyclable and Low Fat Products | Easy | SELECT, WHERE, AND | ✅ |
-| 584 | Find Customer Referee | Easy | OR, NULL, IS NULL | ✅ |
+| 584 | Find Customer Referee | Easy | WHERE, OR, NULL, IS NULL | ✅ |
 | 595 | Big Countries | Easy | WHERE, OR, Comparison Operators | ✅ |
-| 1148 | Article Views I | Easy | DISTINCT, AS, ORDER BY | ✅ |
-| 1683 | Invalid Tweets | Easy | CHAR_LENGTH(), WHERE | ✅ |
-| 620 | Not Boring Movies | Easy | AND, %, ORDER BY, DESC | ✅ |
+| 1148 | Article Views I | Easy | DISTINCT, AS, WHERE, ORDER BY | ✅ |
+| 1683 | Invalid Tweets | Easy | WHERE, CHAR_LENGTH() | ✅ |
+| 620 | Not Boring Movies | Easy | WHERE, AND, %, ORDER BY, DESC | ✅ |
+| 1378 | Replace Employee ID With The Unique Identifier | Easy | LEFT JOIN, ON, Aliases | ✅ |
 
 ---
 
 # 🧠 Concepts Currently Covered
 
-### Fundamentals
+## Fundamentals
 
 - [x] SELECT
 - [x] FROM
@@ -135,10 +139,11 @@ I solve problems independently after learning the concepts required for them.
 - [x] ORDER BY
 - [x] LIMIT
 - [x] IN
+- [ ] NOT IN
 - [ ] BETWEEN
 - [ ] LIKE
 
-### Functions & Aggregation
+## Functions & Aggregation
 
 - [ ] COUNT()
 - [ ] SUM()
@@ -148,21 +153,33 @@ I solve problems independently after learning the concepts required for them.
 - [ ] GROUP BY
 - [ ] HAVING
 
-### Joins
+## Joins
 
 - [ ] INNER JOIN
-- [ ] LEFT JOIN
+- [x] LEFT JOIN
 - [ ] RIGHT JOIN
 - [ ] SELF JOIN
+- [ ] Multiple-table Queries
 
-### Advanced
+## Intermediate SQL
 
 - [ ] CASE
 - [ ] Subqueries
-- [ ] EXISTS / NOT EXISTS
-- [ ] UNION / UNION ALL
+- [ ] IN with Subqueries
+- [ ] EXISTS
+- [ ] NOT EXISTS
+- [ ] UNION
+- [ ] UNION ALL
+- [ ] NULL Handling
+
+## Advanced SQL
+
 - [ ] CTEs
 - [ ] Window Functions
+- [ ] ROW_NUMBER()
+- [ ] RANK()
+- [ ] DENSE_RANK()
+- [ ] PARTITION BY
 
 ---
 
@@ -193,6 +210,10 @@ SQL/
 │   ├── solution.sql
 │   └── README.md
 │
-└── 620-Not-Boring-Movies/
+├── 620-Not-Boring-Movies/
+│   ├── solution.sql
+│   └── README.md
+│
+└── 1378-Replace-Employee-ID-With-The-Unique-Identifier/
     ├── solution.sql
     └── README.md
