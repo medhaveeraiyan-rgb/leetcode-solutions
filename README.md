@@ -1,4 +1,4 @@
-# 🧠 LeetCode Solutions
+# 🧠 LeetCode Solution
 
 Welcome to my **LeetCode problem-solving journey**.
 
